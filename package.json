@@ -1,10 +1,10 @@
 {
-  "name": "clockify",
+  "name": "strapi-plugin-clockify",
   "version": "1.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Plugin to link Clockify time keeping app with Strapi CMS",
   "strapi": {
     "name": "Clockify",
-    "description": "Plugin to link Clockify time keeping app with Strapi",
+    "description": "Plugin to link Clockify time keeping app with Strapi C<S",
     "kind": "plugin"
   },
   "dependencies": {
@@ -33,13 +33,17 @@
     "styled-components": "^5.2.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "ChristopherLMiller"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "ChristopherLMiller"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristopherLMiller/strapi-plugin-clockify"
+  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
@@ -48,5 +52,6 @@
     "develop": "tsc -p tsconfig.server.json -w",
     "build": "tsc -p tsconfig.server.json"
   },
-  "license": "MIT"
+  "license": "MIT",
+  ""
 }

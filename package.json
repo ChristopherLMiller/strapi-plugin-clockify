@@ -3,7 +3,7 @@
   "version": "1.0.8",
   "description": "Plugin to link Clockify time keeping app with Strapi CMS",
   "strapi": {
-    "name": "Clockify",
+    "name": "clockify",
     "description": "Plugin to link Clockify time keeping app with Strapi C<S",
     "kind": "plugin"
   },
@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChristopherLMiller/strapi-plugin-clockify"
+    "url": "git+https://github.com/ChristopherLMiller/strapi-plugin-clockify.git"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
